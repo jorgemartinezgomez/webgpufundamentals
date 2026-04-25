@@ -65,7 +65,7 @@ El orden sigue `toc.hanson` (orden de lectura recomendado).
 |---|---------|--------|-------|-------|
 | 34 | `webgpu-large-triangle-to-cover-clip-space.md` | ✅ Completado | 2026-04-25 | 2D |
 | 35 | `webgpu-environment-maps.md` | ✅ Completado | 2026-04-25 | 3D |
-| 36 | `webgpu-skybox.md` | ⬜ Pendiente | | 3D |
+| 36 | `webgpu-skybox.md` | ✅ Completado | 2026-04-25 | 3D |
 | 37 | `webgpu-post-processing.md` | ⬜ Pendiente | | Post Processing |
 | 38 | `webgpu-image-adjustments.md` | ⬜ Pendiente | | Post Processing |
 | 39 | `webgpu-1dlut.md` | ⬜ Pendiente | | Post Processing |
