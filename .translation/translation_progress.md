@@ -15,7 +15,7 @@ El orden sigue `toc.hanson` (orden de lectura recomendado).
 
 | # | Archivo | Estado | Fecha | Notas |
 |---|---------|--------|-------|-------|
-| 1 | `webgpu-fundamentals.md` | ⬜ Pendiente | | |
+| 1 | `webgpu-fundamentals.md` | ✅ Completado | 2026-04-25 | Traducción completa |
 | 2 | `webgpu-inter-stage-variables.md` | ⬜ Pendiente | | |
 | 3 | `webgpu-uniforms.md` | ⬜ Pendiente | | |
 | 4 | `webgpu-storage-buffers.md` | ⬜ Pendiente | | |
