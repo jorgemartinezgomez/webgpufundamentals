@@ -3,9 +3,9 @@
 ## Estadísticas
 
 - **Total de archivos**: 56 (excluyendo 6 stubs sin contenido)
-- **Traducidos**: 40
-- **Pendientes**: 16
-- **Progreso**: 71%
+- **Traducidos**: 43
+- **Pendientes**: 13
+- **Progreso**: 77%
 
 ## Estado por sección
 
@@ -70,9 +70,9 @@ El orden sigue `toc.hanson` (orden de lectura recomendado).
 | 38 | `webgpu-image-adjustments.md` | ✅ Completado | 2026-04-25 | Post Processing |
 | 39 | `webgpu-1dlut.md` | ✅ Completado | 2026-04-25 | Post Processing |
 | 40 | `webgpu-3dlut.md` | ✅ Completado | 2026-04-25 | Post Processing |
-| 41 | `webgpu-highlighting.md` | ⬜ Pendiente | | Editor |
-| 42 | `webgpu-camera-controls.md` | ⬜ Pendiente | | Editor |
-| 43 | `webgpu-picking.md` | ⬜ Pendiente | | Editor |
+| 41 | `webgpu-highlighting.md` | ✅ Completado | 2026-04-25 | Editor |
+| 42 | `webgpu-camera-controls.md` | ✅ Completado | 2026-04-25 | Editor |
+| 43 | `webgpu-picking.md` | ✅ Completado | 2026-04-25 | Editor |
 
 ### Compute Shaders (Shaders de cómputo)
 
