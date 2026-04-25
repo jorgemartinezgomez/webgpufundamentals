@@ -3,9 +3,9 @@
 ## Estadísticas
 
 - **Total de archivos**: 56 (excluyendo 6 stubs sin contenido)
-- **Traducidos**: 55
-- **Pendientes**: 1
-- **Progreso**: 98%
+- **Traducidos**: 56
+- **Pendientes**: 0
+- **Progreso**: 100%
 
 ## Estado por sección
 
@@ -94,7 +94,7 @@ El orden sigue `toc.hanson` (orden de lectura recomendado).
 | 52 | `webgpu-debugging.md` | ✅ Completado | 2026-04-25 | Traducción completa |
 | 53 | `webgpu-resources.md` | ✅ Completado | 2026-04-25 | Traducción completa |
 | 54 | `webgpu-wgsl-function-reference.md` | ✅ Completado | 2026-04-25 | Traducción completa |
-| 55 | `webgpu-wgsl-offset-computer.md` | ⬜ Pendiente | | Stub |
+| 55 | `webgpu-wgsl-offset-computer.md` | ✅ Completado | 2026-04-25 | Traducción completa |
 
 ### No incluidos en TOC (sin sección asignada)
 
