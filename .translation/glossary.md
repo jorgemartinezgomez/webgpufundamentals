@@ -103,3 +103,9 @@
 | z-buffer / depth buffer | z-buffer / buffer de profundidad | |
 | face culling | face culling / descarte de caras | Aclarar la 1ª vez |
 | winding order | orden de bobinado (winding order) | Aclarar la 1ª vez |
+| mipmap / mip level | mipmap / nivel de mip | Se suele usar nivel de mip en prosa |
+| texture view | vista de textura | |
+| skybox | skybox | Mantener término en inglés |
+| texel | téxel | Con tilde |
+| bilinear filtering | filtrado bilineal (bilinear filtering) | Aclarar la 1ª vez |
+| address mode | modo de direccionamiento (address mode) | |

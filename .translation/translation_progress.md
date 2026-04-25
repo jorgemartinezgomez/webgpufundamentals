@@ -3,9 +3,9 @@
 ## Estadísticas
 
 - **Total de archivos**: 56 (excluyendo 6 stubs sin contenido)
-- **Traducidos**: 5
-- **Pendientes**: 52
-- **Progreso**: 9%
+- **Traducidos**: 6
+- **Pendientes**: 51
+- **Progreso**: 11%
 
 ## Estado por sección
 
@@ -20,7 +20,7 @@ El orden sigue `toc.hanson` (orden de lectura recomendado).
 | 3 | `webgpu-uniforms.md` | ✅ Completado | 2026-04-25 | Traducción completa |
 | 4 | `webgpu-storage-buffers.md` | ✅ Completado | 2026-04-25 | Traducción completa |
 | 5 | `webgpu-vertex-buffers.md` | ✅ Completado | 2026-04-25 | Traducción completa |
-| 6 | `webgpu-textures.md` | ⬜ Pendiente | | |
+| 6 | `webgpu-textures.md` | ✅ Completado | 2026-04-25 | Traducción completa |
 | 7 | `webgpu-importing-textures.md` | ⬜ Pendiente | | |
 | 8 | `webgpu-textures-external-video.md` | ⬜ Pendiente | | |
 | 9 | `webgpu-cube-maps.md` | ⬜ Pendiente | | |
