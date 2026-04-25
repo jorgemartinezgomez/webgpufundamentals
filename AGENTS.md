@@ -22,9 +22,9 @@ Los archivos traducidos deben tener **exactamente el mismo nombre** que el origi
 
 ### SÍ se traduce
 
-- El campo `Title:` del frontmatter
+- El campo `Title:` del frontmatter (EXCEPTO si el título es un término técnico estándar, ver lista abajo)
 - El campo `Description:` del frontmatter
-- El campo `TOC:` del frontmatter
+- El campo `TOC:` del frontmatter (EXCEPTO si es un término técnico estándar)
 - Todo el texto explicativo entre bloques de código
 - Los comentarios en bloques de pseudocódigo que son parte de la explicación
 - Las notas al pie (`[^nombre]`): el identificador NO se traduce, pero el contenido SÍ
@@ -35,11 +35,23 @@ Los archivos traducidos deben tener **exactamente el mismo nombre** que el origi
 - Código fuente (JavaScript, WGSL, HTML, CSS)
 - Comentarios dentro del código JS/WGSL/HTML
 - Nombres de API de WebGPU/WGSL (device, adapter, pipeline, bindGroup, etc.)
+- **Términos técnicos estándar de la industria** (se usan en inglés en el texto y títulos):
+    - **Objetos de la API**: buffer, bind group, bind group layout, pipeline, render pipeline, compute pipeline, sampler, encoder.
+    - **Tipos de texturas/técnicas**: cubemap, environment map, skybox, mipmap, post-processing, compute shader.
+    - **Conceptos de memoria**: storage buffer, vertex buffer, uniform buffer, staging buffer, offset, stride.
 - URLs y **enlaces internos** (ej: `webgpu-textures.html`)
 - Atributos HTML
 - Directivas del sistema de build: `{{{example ...}}}`, `{{#escapehtml}}`, etc.
 - Los valores de `label:` en el código (son identificadores técnicos)
 - Los nombres de archivos en rutas
+
+## Reglas de estilo para términos técnicos
+
+Para los términos de la lista "NO se traduce" que no son estrictamente nombres de funciones (como *cubemap* o *storage buffer*):
+1. **Primera mención**: Usar el término en inglés y, opcionalmente, poner la traducción literal entre paréntesis si ayuda a la comprensión. Ejemplo: "En este artículo veremos los **cubemaps** (mapas de cubo)..."
+2. **Resto del artículo**: Usar siempre el término en inglés.
+3. **Títulos**: Usar el término en inglés (ej: `Title: WebGPU Cubemaps`).
+4. **Género**: Usar el género que suela usarse en la jerga técnica (ej: "el buffer", "la pipeline", "el cubemap").
 
 ## Reglas Críticas de Integridad Estructural
 

@@ -2,7 +2,7 @@ Title: Texturas en WebGPU
 Description: Cómo usar texturas
 TOC: Texturas
 
-En este artículo cubriremos los fundamentos de las texturas. En artículos anteriores cubrimos las otras formas principales de pasar datos a un shader. Estas fueron las [variables inter-etapa (inter-stage variables)](webgpu-inter-stage-variables.html), los [uniforms](webgpu-uniforms.html), los [storage buffers](webgpu-storage-buffers.html) y los [vertex buffers (buffers de vértices)](webgpu-vertex-buffers). La última forma principal de pasar datos a un shader son las texturas.
+En este artículo cubriremos los fundamentos de las texturas. En artículos anteriores cubrimos las otras formas principales de pasar datos a un shader. Estas fueron las [variables inter-etapa (inter-stage variables)](webgpu-inter-stage-variables.html), los [uniforms](webgpu-uniforms.html), los [storage buffers](webgpu-storage-buffers.html) y los [vertex buffers](webgpu-vertex-buffers.html). La última forma principal de pasar datos a un shader son las texturas.
 
 Las texturas representan con mayor frecuencia una imagen 2D. Una imagen 2D es solo un array 2D de valores de color, por lo que te preguntarás, ¿por qué necesitamos texturas para arrays 2D? Podríamos usar simplemente storage buffers como arrays 2D. Lo que hace especiales a las texturas es que pueden ser accedidas por un hardware especial llamado *sampler*. Un sampler puede leer hasta 16 valores diferentes en una textura y mezclarlos entre sí de una manera que es útil para muchos casos de uso comunes.
 
@@ -96,7 +96,7 @@ Cambiamos `OurVertexShaderOutput` para pasar `texcoord`, un `vec2f`, de modo que
 
 Luego declaramos un sampler y una textura y los referenciamos en nuestro fragment shader. La función `textureSample` *muestrea* una textura. El primer parámetro es la textura a muestrear. El segundo parámetro es el sampler para especificar cómo muestrear la textura. El tercero es la coordenada de textura para saber dónde muestrear.
 
-> Nota: No es común pasar valores de posición como coordenadas de textura, pero en este caso particular de un cuadrilátero unitario (un cuadrilátero de una unidad de ancho y una unidad de alto) resulta que las coordenadas de textura que necesitamos coinciden con las posiciones. Hacerlo de esta manera mantiene el ejemplo más pequeño y simple. Sería mucho más común proporcionar coordenadas de textura a través de [vertex buffers (buffers de vértices)](webgpu-vertex-buffers.html).
+> Nota: No es común pasar valores de posición como coordenadas de textura, pero en este caso particular de un cuadrilátero unitario (un cuadrilátero de una unidad de ancho y una unidad de alto) resulta que las coordenadas de textura que necesitamos coinciden con las posiciones. Hacerlo de esta manera mantiene el ejemplo más pequeño y simple. Sería mucho más común proporcionar coordenadas de textura a través de [vertex buffers](webgpu-vertex-buffers.html).
 
 Ahora necesitamos crear los datos de la textura. Haremos una `F` de 5x7 téxeles (texels) [^texel].
 

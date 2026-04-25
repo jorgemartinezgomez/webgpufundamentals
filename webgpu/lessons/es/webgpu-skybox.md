@@ -3,7 +3,7 @@ Description: ¡Muestra el cielo con un skybox!
 TOC: Skyboxes
 
 
-Este artículo continúa desde [el artículo sobre mapas de entorno (environment maps)](webgpu-environment-maps.html).
+Este artículo continúa desde [el artículo sobre **environment maps**](webgpu-environment-maps.html).
 
 Un *skybox* es una caja con texturas que parecen el cielo en todas las direcciones o, más bien, que parecen lo que está muy lejos, incluyendo el horizonte. Imagina que estás en una habitación y en cada pared hay un póster a tamaño real de alguna vista, añade un póster para cubrir el techo mostrando el cielo y uno para el suelo mostrando el terreno; eso es un skybox.
 
@@ -17,9 +17,9 @@ Puedes ver arriba que necesitamos asegurarnos de que el punto más lejano del cu
 
 La solución típica es desactivar la prueba de profundidad y dibujar el skybox primero, pero entonces no obtenemos el beneficio de rendimiento de que la prueba de profundidad no dibuje píxeles que luego cubriremos con cosas en nuestra escena.
 
-En lugar de usar un cubo, simplemente [dibujemos un triángulo que cubra todo el canvas](webgpu-large-triangle-to-cover-clip-space.html) y usemos [un mapa de cubo (cubemap)](webgpu-cube-maps.html). Normalmente usamos una matriz de vista-proyección (view projection matrix) para proyectar geometría en el espacio 3D. En este caso haremos lo contrario. Usaremos la inversa de la matriz de vista-proyección para trabajar hacia atrás y obtener la dirección en la que la cámara está mirando para cada píxel que se está dibujando. Esto nos dará direcciones para buscar en el cubemap.
+En lugar de usar un cubo, simplemente [dibujemos un triángulo que cubra todo el canvas](webgpu-large-triangle-to-cover-clip-space.html) y usemos un **cubemap**. Normalmente usamos una matriz de vista-proyección (view projection matrix) para proyectar geometría en el espacio 3D. En este caso haremos lo contrario. Usaremos la inversa de la matriz de vista-proyección para trabajar hacia atrás y obtener la dirección en la que la cámara está mirando para cada píxel que se está dibujando. Esto nos dará direcciones para buscar en el **cubemap**.
 
-Comenzando con el [ejemplo de mapa de entorno](webgpu-environment-maps.html), ya que ya carga un cubemap y genera mips para él. 
+Comenzando con el [ejemplo de **environment map**](webgpu-environment-maps.html), ya que ya carga un **cubemap** y genera mips para él. 
 Usemos un triángulo con valores fijos. Aquí está el shader:
 
 ```wgsl

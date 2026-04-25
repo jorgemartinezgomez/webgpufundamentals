@@ -1,6 +1,6 @@
-Title: WebGPU Cubemaps (Mapas de cubo)
+Title: WebGPU Cubemaps
 Description: Cómo usar cubemaps en WebGPU
-TOC: Mapas de cubo
+TOC: Cubemaps
 
 Este artículo asume que has leído [el artículo sobre texturas](webgpu-textures.html) y [el artículo sobre la importación de imágenes en texturas](webgpu-importing-textures.html).
 Este artículo también utiliza conceptos cubiertos en [el artículo sobre iluminación direccional](webgpu-lighting-directional.html).
@@ -8,7 +8,7 @@ Si aún no has leído esos artículos, es posible que quieras leerlos primero.
 
 En un [artículo anterior](webgpu-textures.html) cubrimos cómo usar texturas, cómo se referencian mediante coordenadas de textura que van de 0 a 1 a lo ancho y a lo largo de la textura, y cómo se filtran opcionalmente usando mips.
 
-Otro tipo de textura es un *mapa de cubo (cubemap)*. Un cubemap consta de 6 caras que representan las 6 caras de un cubo. En lugar de las coordenadas de textura tradicionales que tienen 2 dimensiones, un cubemap utiliza una normal o, en otras palabras, una dirección 3D. Dependiendo de la dirección a la que apunte la normal, se selecciona una de las 6 caras del cubo y luego, dentro de esa cara, se muestrean los píéxeles para producir un color.
+Otro tipo de textura es un **cubemap** (mapa de cubo). Un cubemap consta de 6 caras que representan las 6 caras de un cubo. En lugar de las coordenadas de textura tradicionales que tienen 2 dimensiones, un cubemap utiliza una normal o, en otras palabras, una dirección 3D. Dependiendo de la dirección a la que apunte la normal, se selecciona una de las 6 caras del cubo y luego, dentro de esa cara, se muestrean los píxeles para producir un color.
 
 Hagamos un ejemplo sencillo: utilizaremos un canvas 2D para crear las imágenes utilizadas en cada una de las 6 caras.
 
@@ -57,7 +57,7 @@ for (const canvas of faceCanvases) {
 
 {{{example url="../webgpu-cube-faces.html" }}}
 
-Ahora apliquemos estas imágenes a un cubo utilizando un cubemap. Comenzaremos con el código del ejemplo de atlas de texturas [en el artículo sobre la importación de texturas](webgpu-importing-textures.html#a-texture-atlases).
+Ahora apliquemos estas imágenes a un cubo aplicando un cubemap. Comenzaremos con el código del ejemplo de atlas de texturas [en el artículo sobre la importación de texturas](webgpu-importing-textures.html#a-texture-atlases).
 
 En primer lugar, cambiemos los shaders para usar un cubemap:
 
@@ -441,7 +441,7 @@ Otra forma de pensarlo es que si llamaras a `textureSample` y pasaras las direcc
 * `textureSample(tex, sampler, vec3f( 0, 0, 1))` => centro de la capa 4
 * `textureSample(tex, sampler, vec3f( 0, 0,-1))` => centro de la capa 5
 
-Usar un cubemap para texturizar un cubo **no** es para lo que se suelen usar los cubemaps. La forma *correcta*, o más bien estándar, de texturizar un cubo es usar un atlas de texturas como [mencionamos antes](webgpu-importing-textures.html#a-texture-atlases). El objetivo de este artículo era introducir el concepto de mapa de cubo y mostrar cómo se le pasan direcciones (normales) y devuelve el color del cubo en esa dirección.
+Usar un **cubemap** para texturizar un cubo **no** es para lo que se suelen usar los cubemaps. La forma *correcta*, o más bien estándar, de texturizar un cubo es usar un atlas de texturas como [mencionamos antes](webgpu-importing-textures.html#a-texture-atlases). El objetivo de este artículo era introducir el concepto de **cubemap** y mostrar cómo se le pasan direcciones (normales) y devuelve el color del cubo en esa dirección.
 
-Ahora que hemos aprendido qué es un cubemap y cómo configurarlo, ¿para qué se utiliza? Probablemente, el uso más común de un cubemap es como un [*mapa de entorno* (environment map)](webgpu-environment-maps.html).
+Ahora que hemos aprendido qué es un **cubemap** y cómo configurarlo, ¿para qué se utiliza? Probablemente, el uso más común de un **cubemap** es como un [**environment map** (mapa de entorno)](webgpu-environment-maps.html).
 

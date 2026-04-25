@@ -1,15 +1,15 @@
-Title: Mapas de entorno en WebGPU (reflexiones)
-Description: Cómo implementar mapas de entorno.
-TOC: Mapas de entorno
+Title: WebGPU Environment Maps (reflexiones)
+Description: Cómo implementar environment maps.
+TOC: Environment Maps
 
-Este artículo continúa desde [el artículo sobre mapas de cubo (cubemaps)](webgpu-cube-maps.html).
+Este artículo continúa desde [el artículo sobre cubemaps](webgpu-cube-maps.html).
 Este artículo también utiliza conceptos cubiertos en [el artículo sobre iluminación](webgpu-lighting-directional.html).
 Si aún no has leído esos artículos, es posible que quieras leerlos primero.
 
-Un *mapa de entorno (environment map)* representa el entorno de los objetos que estás dibujando.
-Si estás dibujando una escena al aire libre, representaría el exterior. Si estás dibujando personas en un escenario, representaría el lugar. Si estás dibujando una escena en el espacio exterior, serían las estrellas. Podemos implementar un mapa de entorno con un mapa de cubo (cubemap) si tenemos 6 imágenes que muestren el entorno desde un punto en el espacio en las 6 direcciones del cubemap.
+Un **environment map** (mapa de entorno) representa el entorno de los objetos que estás dibujando.
+Si estás dibujando una escena al aire libre, representaría el exterior. Si estás dibujando personas en un escenario, representaría el lugar. Si estás dibujando una escena en el espacio exterior, serían las estrellas. Podemos implementar un **environment map** con un **cubemap** si tenemos 6 imágenes que muestren el entorno desde un punto en el espacio en las 6 direcciones del cubemap.
 
-Aquí tienes un mapa de entorno del vestíbulo del Leadenhall Market en Londres.
+Aquí tienes un **environment map** del vestíbulo del Leadenhall Market en Londres.
 
 <div class="webgpu_center">
   <div class="side-by-side center-by-margin" style="max-width: 800px">
@@ -395,7 +395,7 @@ Si miras de cerca, podrías ver un pequeño problema.
 
 ## <a id="a-flipped"></a> Corrigiendo la dirección de reflexión
 
-Nuestro cubo con un mapa de entorno aplicado representa un cubo espejado. Pero un espejo normalmente muestra las cosas invertidas horizontalmente. ¿Qué está pasando?
+Nuestro cubo con un **environment map** aplicado representa un cubo espejado. Pero un espejo normalmente muestra las cosas invertidas horizontalmente. ¿Qué está pasando?
 
 El problema es que estamos en el interior del cubo mirando hacia afuera, pero recuerda de [el artículo anterior](webgpu-cube-maps.html) que cuando mapeamos texturas a cada lado del cubo, se mapeaban correctamente cuando se veían desde el exterior.
 
@@ -418,7 +418,7 @@ Ahora la reflexión está invertida, tal como en un espejo.
 
 A continuación, mostremos [cómo usar un cubemap para un skybox](webgpu-skybox.html).
 
-## Encontrar y crear mapas de cubo (cubemaps)
+## Encontrar y crear environment maps (cubemaps)
 
 Puedes encontrar cientos de panoramas gratuitos en [polyhaven.com](https://polyhaven.com/hdris). Descarga un archivo jpg o png de cualquiera de ellos (haz clic en el menú ≡ en la parte superior derecha). Luego, ve a [esta página](https://greggman.github.io/panorama-to-cubemap/) y arrastra y suelta el archivo .jpg o .png allí. Selecciona el tamaño y el formato que desees y haz clic en el botón para guardar las imágenes como caras del cubemap.
 

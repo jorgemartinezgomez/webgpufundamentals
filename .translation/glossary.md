@@ -32,6 +32,15 @@
 | callback | Universal en programación |
 | encoder | API WebGPU |
 | multisampling | Universal en gráficos |
+| cubemap | Universal en gráficos |
+| environment map | Técnica de gráficos |
+| skybox | Técnica de gráficos |
+| post-processing | Técnica de gráficos |
+| storage buffer | Concepto de memoria |
+| vertex buffer | Concepto de memoria |
+| uniform buffer | Concepto de memoria |
+| staging buffer | Concepto de memoria |
+| stride | Concepto de memoria |
 
 ## Términos que SÍ se traducen
 
@@ -53,7 +62,6 @@
 | rasterize / rasterization | rasterizar / rasterización | |
 | rendering / render | renderizado / renderizar | |
 | draw / drawing | dibujar / dibujo | |
-| command buffer | buffer de comandos | Mantener "buffer" |
 | attribute | atributo | |
 | parameter | parámetro | |
 | return value | valor de retorno | |
@@ -104,14 +112,10 @@
 | z-buffer / depth buffer | z-buffer / buffer de profundidad | |
 | face culling | face culling / descarte de caras | Aclarar la 1ª vez |
 | winding order | orden de bobinado (winding order) | Aclarar la 1ª vez |
-| mipmap / mip level | mipmap / nivel de mip | Se suele usar nivel de mip en prosa |
 | texture view | vista de textura | |
-| skybox | skybox | Mantener término en inglés |
 | texel | téxel | Con tilde |
 | bilinear filtering | filtrado bilineal (bilinear filtering) | Aclarar la 1ª vez |
 | address mode | modo de direccionamiento (address mode) | |
-| cubemap | mapa de cubo (cubemap) | Aclarar la 1ª vez |
-| environment map | mapa de entorno (environment map) | Aclarar la 1ª vez |
 | pipeline-overridable constants | constantes de pipeline modificables (pipeline-overridable constants) | Aclarar la 1ª vez |
 | limits | límites | |
 | features | características / características opcionales (features) | Aclarar la 1ª vez |
