@@ -3,9 +3,9 @@
 ## Estadísticas
 
 - **Total de archivos**: 56 (excluyendo 6 stubs sin contenido)
-- **Traducidos**: 2
+- **Traducidos**: 3
 - **Pendientes**: 54
-- **Progreso**: 4%
+- **Progreso**: 5%
 
 ## Estado por sección
 
@@ -17,7 +17,7 @@ El orden sigue `toc.hanson` (orden de lectura recomendado).
 |---|---------|--------|-------|-------|
 | 1 | `webgpu-fundamentals.md` | ✅ Completado | 2026-04-25 | Traducción completa |
 | 2 | `webgpu-inter-stage-variables.md` | ✅ Completado | 2026-04-25 | Traducción completa |
-| 3 | `webgpu-uniforms.md` | ⬜ Pendiente | | |
+| 3 | `webgpu-uniforms.md` | ✅ Completado | 2026-04-25 | Traducción completa |
 | 4 | `webgpu-storage-buffers.md` | ⬜ Pendiente | | |
 | 5 | `webgpu-vertex-buffers.md` | ⬜ Pendiente | | |
 | 6 | `webgpu-textures.md` | ⬜ Pendiente | | |

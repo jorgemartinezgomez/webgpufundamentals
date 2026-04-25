@@ -83,6 +83,12 @@
 | perspective projection | proyección en perspectiva | |
 | orthographic projection | proyección ortográfica | |
 | matrix / matrices | matriz / matrices | |
+| projection matrix | matriz de proyección | |
+| view matrix | matriz de vista | |
+| camera matrix | matriz de cámara | |
+| world matrix | matriz de mundo | |
+| model matrix | matriz de modelo | |
+| normal matrix | matriz normal | |
 | scene graph | grafo de escena | |
 | lighting | iluminación | |
 | spotlight | foco / luz focal | |
