@@ -3,9 +3,9 @@
 ## Estadísticas
 
 - **Total de archivos**: 56 (excluyendo 6 stubs sin contenido)
-- **Traducidos**: 17
-- **Pendientes**: 39
-- **Progreso**: 30%
+- **Traducidos**: 21
+- **Pendientes**: 35
+- **Progreso**: 38%
 
 ## Estado por sección
 
@@ -33,15 +33,15 @@ El orden sigue `toc.hanson` (orden de lectura recomendado).
 | 16 | `webgpu-copying-data.md` | ✅ Completado | 2026-04-25 | Traducción completa |
 | 17 | `webgpu-limits-and-features.md` | ✅ Completado | 2026-04-25 | Traducción completa |
 | 18 | `webgpu-timing.md` | ✅ Completado | 2026-04-25 | Traducción completa |
-| 19 | `webgpu-wgsl.md` | ⬜ Pendiente | | |
-| 20 | `webgpu-how-it-works.md` | ⬜ Pendiente | | |
-| 21 | `webgpu-compatibility-mode.md` | ⬜ Pendiente | | |
+| 19 | `webgpu-wgsl.md` | ✅ Completado | 2026-04-25 | Traducción completa |
+| 20 | `webgpu-how-it-works.md` | ✅ Completado | 2026-04-25 | Traducción completa |
+| 21 | `webgpu-compatibility-mode.md` | ✅ Completado | 2026-04-25 | Traducción completa |
 
 ### 3D Math (Matemáticas 3D)
 
 | # | Archivo | Estado | Fecha | Notas |
 |---|---------|--------|-------|-------|
-| 22 | `webgpu-translation.md` | ⬜ Pendiente | | |
+| 22 | `webgpu-translation.md` | ✅ Completado | 2026-04-25 | Traducción completa |
 | 23 | `webgpu-rotation.md` | ⬜ Pendiente | | |
 | 24 | `webgpu-scale.md` | ⬜ Pendiente | | |
 | 25 | `webgpu-matrix-math.md` | ⬜ Pendiente | | |
