@@ -112,3 +112,4 @@
 | address mode | modo de direccionamiento (address mode) | |
 | cubemap | mapa de cubo (cubemap) | Aclarar la 1ª vez |
 | environment map | mapa de entorno (environment map) | Aclarar la 1ª vez |
+| pipeline-overridable constants | constantes de pipeline modificables (pipeline-overridable constants) | Aclarar la 1ª vez |

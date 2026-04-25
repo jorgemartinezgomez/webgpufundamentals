@@ -3,9 +3,9 @@
 ## Estadísticas
 
 - **Total de archivos**: 56 (excluyendo 6 stubs sin contenido)
-- **Traducidos**: 10
-- **Pendientes**: 46
-- **Progreso**: 18%
+- **Traducidos**: 12
+- **Pendientes**: 44
+- **Progreso**: 21%
 
 ## Estado por sección
 
@@ -26,7 +26,7 @@ El orden sigue `toc.hanson` (orden de lectura recomendado).
 | 9 | `webgpu-cube-maps.md` | ✅ Completado | 2026-04-25 | Traducción completa |
 | 10 | `webgpu-storage-textures.md` | ✅ Completado | 2026-04-25 | Traducción completa |
 | 11 | `webgpu-multisampling.md` | ✅ Completado | 2026-04-25 | Traducción completa |
-| 12 | `webgpu-constants.md` | ⬜ Pendiente | | |
+| 12 | `webgpu-constants.md` | ✅ Completado | 2026-04-25 | Traducción completa |
 | 13 | `webgpu-memory-layout.md` | ⬜ Pendiente | | |
 | 14 | `webgpu-transparency.md` | ⬜ Pendiente | | |
 | 15 | `webgpu-bind-group-layouts.md` | ⬜ Pendiente | | |
