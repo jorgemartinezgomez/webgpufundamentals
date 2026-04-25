@@ -55,9 +55,9 @@ El orden sigue `toc.hanson` (orden de lectura recomendado).
 
 | # | Archivo | Estado | Fecha | Notas |
 |---|---------|--------|-------|-------|
-| 31 | `webgpu-lighting-directional.md` | ⬜ Pendiente | | |
-| 32 | `webgpu-lighting-point.md` | ⬜ Pendiente | | |
-| 33 | `webgpu-lighting-spot.md` | ⬜ Pendiente | | |
+| 31 | `webgpu-lighting-directional.md` | ✅ Completado | 2026-04-25 | Traducción completa |
+| 32 | `webgpu-lighting-point.md` | ✅ Completado | 2026-04-25 | Traducción completa |
+| 33 | `webgpu-lighting-spot.md` | ✅ Completado | 2026-04-25 | Traducción completa |
 
 ### Techniques (Técnicas)
 
