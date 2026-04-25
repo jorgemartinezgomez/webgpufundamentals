@@ -3,9 +3,9 @@
 ## Estadísticas
 
 - **Total de archivos**: 56 (excluyendo 6 stubs sin contenido)
-- **Traducidos**: 39
-- **Pendientes**: 17
-- **Progreso**: 70%
+- **Traducidos**: 40
+- **Pendientes**: 16
+- **Progreso**: 71%
 
 ## Estado por sección
 
@@ -69,7 +69,7 @@ El orden sigue `toc.hanson` (orden de lectura recomendado).
 | 37 | `webgpu-post-processing.md` | ✅ Completado | 2026-04-25 | Post Processing |
 | 38 | `webgpu-image-adjustments.md` | ✅ Completado | 2026-04-25 | Post Processing |
 | 39 | `webgpu-1dlut.md` | ✅ Completado | 2026-04-25 | Post Processing |
-| 40 | `webgpu-3dlut.md` | ⬜ Pendiente | | Post Processing |
+| 40 | `webgpu-3dlut.md` | ✅ Completado | 2026-04-25 | Post Processing |
 | 41 | `webgpu-highlighting.md` | ⬜ Pendiente | | Editor |
 | 42 | `webgpu-camera-controls.md` | ⬜ Pendiente | | Editor |
 | 43 | `webgpu-picking.md` | ⬜ Pendiente | | Editor |
