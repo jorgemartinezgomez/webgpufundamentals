@@ -29,7 +29,7 @@ El orden sigue `toc.hanson` (orden de lectura recomendado).
 | 12 | `webgpu-constants.md` | ✅ Completado | 2026-04-25 | Traducción completa |
 | 13 | `webgpu-memory-layout.md` | ✅ Completado | 2026-04-25 | Traducción completa |
 | 14 | `webgpu-transparency.md` | ✅ Completado | 2026-04-25 | Traducción completa |
-| 15 | `webgpu-bind-group-layouts.md` | ⬜ Pendiente | | |
+| 15 | `webgpu-bind-group-layouts.md` | ✅ Completado | 2026-04-25 | Traducción completa |
 | 16 | `webgpu-copying-data.md` | ⬜ Pendiente | | |
 | 17 | `webgpu-limits-and-features.md` | ⬜ Pendiente | | |
 | 18 | `webgpu-timing.md` | ⬜ Pendiente | | |
