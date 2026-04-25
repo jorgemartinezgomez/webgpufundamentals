@@ -3,9 +3,9 @@
 ## Estadísticas
 
 - **Total de archivos**: 56 (excluyendo 6 stubs sin contenido)
-- **Traducidos**: 21
-- **Pendientes**: 35
-- **Progreso**: 38%
+- **Traducidos**: 25
+- **Pendientes**: 31
+- **Progreso**: 45%
 
 ## Estado por sección
 
@@ -46,10 +46,10 @@ El orden sigue `toc.hanson` (orden de lectura recomendado).
 | 24 | `webgpu-scale.md` | ✅ Completado | 2026-04-25 | Traducción completa |
 | 25 | `webgpu-matrix-math.md` | ✅ Completado | 2026-04-25 | Traducción completa |
 | 26 | `webgpu-orthographic-projection.md` | ✅ Completado | 2026-04-25 | Traducción completa |
-| 27 | `webgpu-perspective-projection.md` | ⬜ Pendiente | | |
-| 28 | `webgpu-cameras.md` | ⬜ Pendiente | | |
-| 29 | `webgpu-matrix-stacks.md` | ⬜ Pendiente | | |
-| 30 | `webgpu-scene-graphs.md` | ⬜ Pendiente | | |
+| 27 | `webgpu-perspective-projection.md` | ✅ Completado | 2026-04-25 | Traducción completa |
+| 28 | `webgpu-cameras.md` | ✅ Completado | 2026-04-25 | Traducción completa |
+| 29 | `webgpu-matrix-stacks.md` | ✅ Completado | 2026-04-25 | Traducción completa |
+| 30 | `webgpu-scene-graphs.md` | ✅ Completado | 2026-04-25 | Traducción completa |
 
 ### Lighting (Iluminación)
 
