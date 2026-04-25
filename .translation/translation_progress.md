@@ -3,9 +3,9 @@
 ## Estadísticas
 
 - **Total de archivos**: 56 (excluyendo 6 stubs sin contenido)
-- **Traducidos**: 50
-- **Pendientes**: 6
-- **Progreso**: 89%
+- **Traducidos**: 55
+- **Pendientes**: 1
+- **Progreso**: 98%
 
 ## Estado por sección
 
@@ -90,17 +90,17 @@ El orden sigue `toc.hanson` (orden de lectura recomendado).
 | 48 | `webgpu-multiple-canvases.md` | ✅ Completado | 2026-04-25 | Traducción completa |
 | 49 | `webgpu-points.md` | ✅ Completado | 2026-04-25 | Traducción completa |
 | 50 | `webgpu-from-webgl.md` | ✅ Completado | 2026-04-25 | Traducción completa |
-| 51 | `webgpu-optimization.md` | ⬜ Pendiente | | |
-| 52 | `webgpu-debugging.md` | ⬜ Pendiente | | |
-| 53 | `webgpu-resources.md` | ⬜ Pendiente | | |
-| 54 | `webgpu-wgsl-function-reference.md` | ⬜ Pendiente | | |
+| 51 | `webgpu-optimization.md` | ✅ Completado | 2026-04-25 | Traducción completa |
+| 52 | `webgpu-debugging.md` | ✅ Completado | 2026-04-25 | Traducción completa |
+| 53 | `webgpu-resources.md` | ✅ Completado | 2026-04-25 | Traducción completa |
+| 54 | `webgpu-wgsl-function-reference.md` | ✅ Completado | 2026-04-25 | Traducción completa |
 | 55 | `webgpu-wgsl-offset-computer.md` | ⬜ Pendiente | | Stub |
 
 ### No incluidos en TOC (sin sección asignada)
 
 | # | Archivo | Estado | Fecha | Notas |
 |---|---------|--------|-------|-------|
-| 56 | `webgpu-utils.md` | ⬜ Pendiente | | No está en toc.hanson |
+| 56 | `webgpu-utils.md` | ✅ Completado | 2026-04-25 | Traducción completa |
 
 ### Stubs (sin contenido real, ignorar por ahora)
 
