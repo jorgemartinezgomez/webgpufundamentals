@@ -21,7 +21,7 @@ El orden sigue `toc.hanson` (orden de lectura recomendado).
 | 4 | `webgpu-storage-buffers.md` | ✅ Completado | 2026-04-25 | Traducción completa |
 | 5 | `webgpu-vertex-buffers.md` | ✅ Completado | 2026-04-25 | Traducción completa |
 | 6 | `webgpu-textures.md` | ✅ Completado | 2026-04-25 | Traducción completa |
-| 7 | `webgpu-importing-textures.md` | ⬜ Pendiente | | |
+| 7 | `webgpu-importing-textures.md` | ✅ Completado | 2026-04-25 | Traducción completa |
 | 8 | `webgpu-textures-external-video.md` | ⬜ Pendiente | | |
 | 9 | `webgpu-cube-maps.md` | ⬜ Pendiente | | |
 | 10 | `webgpu-storage-textures.md` | ⬜ Pendiente | | |
