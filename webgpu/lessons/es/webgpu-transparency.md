@@ -321,7 +321,7 @@ o lo que sea apropiado.
 
 Esto es probablemente lo más utilizado para sprites y para follaje como hierba y
 hojas porque, si estamos dibujando y estamos usando una textura de profundidad (depth texture), como la que
-presentamos en [el artículo sobre proyección ortográfica](webgpu-orthographic-projection.html#a-depth-textures),
+presentamos en [el artículo sobre proyección ortográfica](webgpu-orthograpic-projection.html#a-depth-textures),
 entonces cuando dibujamos un sprite, una hoja o una brizna de hierba, nada de los sprites,
 hojas o hierba detrás de lo que estamos dibujando actualmente se dibujará, incluso si
 el valor alfa es 0 porque todavía estaremos actualizando la textura de profundidad. Por lo tanto,
@@ -546,7 +546,7 @@ Y aquí está funcionando:
 {{{example url="../webgpu-blend-src-canvas.html"}}}
 
 Ahora que tenemos ambas, podemos modificar el ejemplo de importación de canvas de
-[el artículo sobre importación de texturas](webgpu-importing-textures.html#a-loading-canvas).
+[el artículo sobre importación de texturas](webgpu-import-textures.html#a-loading-canvas).
 
 Primero, creemos las 2 imágenes de canvas:
 

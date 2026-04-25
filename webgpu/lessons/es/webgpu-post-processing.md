@@ -603,7 +603,7 @@ Eso funciona:
 
 {{{example url="../webgpu-post-processing-step-03-compute.html"}}}
 
-Desafortunadamente, dependiendo de la GPU, ¡es lento! Cubrimos parte del porqué en [el artículo sobre optimización de compute shaders](webgpu-compute-shaders-histogram.html). Usar un tamaño de workgroup de 1 facilita las cosas, pero es lento.
+Desafortunadamente, dependiendo de la GPU, ¡es lento! Cubrimos parte del porqué en [el artículo sobre optimización de compute shaders](webgpu-compute-shaders-historgram.html). Usar un tamaño de workgroup de 1 facilita las cosas, pero es lento.
 
 Podemos actualizar para usar un tamaño de workgroup más grande. Esto requiere que nos saltemos la escritura en la textura cuando estemos fuera de los límites.
 
@@ -681,7 +681,7 @@ Esto funciona:
   </table>
 </div>
 
-Entrar en detalles sobre cómo hacerlo más rápido es un tema demasiado extenso para este artículo en particular. Haciendo referencia a [el artículo sobre optimización de compute shaders](webgpu-compute-shaders-histogram.html), se aplican las mismas reglas. Desafortunadamente, ninguna de ellas es realmente relevante para este ejemplo. Si el post-procesamiento que estás intentando realizar pudiera beneficiarse de la memoria de workgroup compartida, entonces tal vez usar un compute shader sería beneficioso. Los patrones de acceso también podrían ser relevantes para intentar asegurar que la GPU no esté teniendo muchos fallos de caché. Otra posibilidad podría ser aprovechar los [subgroups (subgrupos)](webgpu-subgroups.html).
+Entrar en detalles sobre cómo hacerlo más rápido es un tema demasiado extenso para este artículo en particular. Haciendo referencia a [el artículo sobre optimización de compute shaders](webgpu-compute-shaders-historgram.html), se aplican las mismas reglas. Desafortunadamente, ninguna de ellas es realmente relevante para este ejemplo. Si el post-procesamiento que estás intentando realizar pudiera beneficiarse de la memoria de workgroup compartida, entonces tal vez usar un compute shader sería beneficioso. Los patrones de acceso también podrían ser relevantes para intentar asegurar que la GPU no esté teniendo muchos fallos de caché. Otra posibilidad podría ser aprovechar los [subgroups (subgrupos)](webgpu-subgroups.html).
 
 Por ahora, se recomienda probar diferentes técnicas y comprobar sus tiempos. O bien, quédate con los render passes a menos que el algoritmo que estés implementando pueda beneficiarse verdaderamente de los datos compartidos de los workgroups o subgroups. Las GPU han estado renderizando a texturas durante mucho más tiempo del que han estado ejecutando compute shaders, por lo que muchos aspectos de ese proceso están altamente optimizados.
 

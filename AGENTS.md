@@ -35,11 +35,21 @@ Los archivos traducidos deben tener **exactamente el mismo nombre** que el origi
 - Código fuente (JavaScript, WGSL, HTML, CSS)
 - Comentarios dentro del código JS/WGSL/HTML
 - Nombres de API de WebGPU/WGSL (device, adapter, pipeline, bindGroup, etc.)
-- URLs
+- URLs y **enlaces internos** (ej: `webgpu-textures.html`)
 - Atributos HTML
 - Directivas del sistema de build: `{{{example ...}}}`, `{{#escapehtml}}`, etc.
 - Los valores de `label:` en el código (son identificadores técnicos)
 - Los nombres de archivos en rutas
+
+## Reglas Críticas de Integridad Estructural
+
+El sistema de build (`lesson-builder`) es extremadamente estricto. El archivo en español debe ser un **espejo estructural** del inglés.
+
+1.  **Paridad de Enlaces**: Los enlaces internos deben ser **idénticos** a los del archivo original.
+    -   Si el original tiene una errata (ej: `[text](webpgu-textures.html)`), la traducción **DEBE** mantener esa misma errata. No intentes corregirla.
+    -   Cualquier diferencia en el destino de un enlace provocará un error "Fatal error" en el build.
+2.  **No añadir HTML/CSS extra**: No añadas etiquetas `<link>`, `<script>`, `<style>` o `<img>` que no existan en el original.
+3.  **Mantenimiento de IDs**: Si el original tiene `<a id="some-id"></a>`, debe mantenerse exactamente igual.
 
 ### Terminología técnica
 

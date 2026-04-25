@@ -138,7 +138,7 @@ Aquí tienes un diagrama donde puedes configurar la rotación de la superficie y
 
 Ahora que sabemos cómo funciona la reflexión y que podemos usarla para buscar valores del cubemap, cambiemos los shaders para hacer eso.
 
-Primero, en el vertex shader (shader de vértices), calcularemos la posición del mundo y la normal orientada al mundo de los vértices y las pasaremos al fragment shader como variables inter-etapa (inter-stage variables). Esto es similar a lo que hicimos en [el artículo sobre focos (spotlights)](webgpu-lighting-spot.html).
+Primero, en el vertex shader (shader de vértices), calcularemos la posición del mundo y la normal orientada al mundo de los vértices y las pasaremos al fragment shader como variables inter-etapa (inter-stage variables). Esto es similar a lo que hicimos en [el artículo sobre focos (spotlights)](webgpu-3d-lighting-spot.html).
 
 ```wgsl
 struct Uniforms {

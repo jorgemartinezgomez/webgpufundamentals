@@ -1089,4 +1089,4 @@ Del mismo modo, los grafos de escena pueden ayudar a implementar manipuladores 3
 
 
 <!-- keep this at the bottom of the article -->
-<script type="module" src="webgpu-scene-graphs.js"></script>
+

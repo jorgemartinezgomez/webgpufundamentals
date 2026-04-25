@@ -959,4 +959,4 @@ A continuación, [grafos de escena](webgpu-scene-graphs.html).
 
 
 <!-- keep this at the bottom of the article -->
-<script type="module" src="webgpu-matrix-stacks.js"></script>
+

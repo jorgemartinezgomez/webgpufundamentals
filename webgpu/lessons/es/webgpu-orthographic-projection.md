@@ -784,7 +784,7 @@ Necesitamos añadir colores a nuestros datos de vértices, pero hay un problema.
 
 El vértice de la esquina de arriba necesita usarse una vez para cada una de las 3 caras que comparte, pero cada vez necesita un color diferente, por lo que usar índices es problemático. [^flat-interpolation]
 
-[^flat-interpolation]: es posible que con una disposición creativa de los índices pudiéramos usar `@interpolate(flat)`, como se menciona en [el artículo sobre variables inter-etapa](webgpu-inter-stage-variables.html#a-interpolate), y seguir usando índices.
+[^flat-interpolation]: es posible que con una disposición creativa de los índices pudiéramos usar `@interpolate(flat)`, como se menciona en [el artículo sobre variables inter-etapa](webgpu-inter-stage-varaibles.html#a-interpolate), y seguir usando índices.
 
 Entonces, vamos a expandir nuestros datos de indexados a no indexados y, de paso, añadiremos colores a los vértices para que cada parte de la F tenga un color diferente.
 

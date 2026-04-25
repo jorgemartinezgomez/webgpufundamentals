@@ -357,7 +357,7 @@ Una vez que funcione, añade cosas de nuevo poco a poco.
 
 Para los pases de renderizado (render passes), lo primero que suelo hacer es mostrar un color sólido.
 
-Aquí tienes el último shader del [artículo sobre focos (spot lights)](webgpu-lighting-spot.html).
+Aquí tienes el último shader del [artículo sobre focos (spot lights)](webgpu-lighitng-spot.html).
 
 ```wgsl
 @fragment fn fs(vsOut: VSOutput) -> @location(0) vec4f {
@@ -495,7 +495,7 @@ Y ya funciona como debería.
 {{{example url="../webgpu-debugging-spot-light-06.html"}}}
 
 Encontrar formas de visualizar tus datos es una buena manera de comprobarlos.
-Por ejemplo, para comprobar las [coordenadas de textura](webgpu-textures.html),
+Por ejemplo, para comprobar las [coordenadas de textura](webpgu-textures.html),
 podrías hacer algo como:
 
 ```wgsl
