@@ -32,7 +32,7 @@ El orden sigue `toc.hanson` (orden de lectura recomendado).
 | 15 | `webgpu-bind-group-layouts.md` | ✅ Completado | 2026-04-25 | Traducción completa |
 | 16 | `webgpu-copying-data.md` | ✅ Completado | 2026-04-25 | Traducción completa |
 | 17 | `webgpu-limits-and-features.md` | ✅ Completado | 2026-04-25 | Traducción completa |
-| 18 | `webgpu-timing.md` | ⬜ Pendiente | | |
+| 18 | `webgpu-timing.md` | ✅ Completado | 2026-04-25 | Traducción completa |
 | 19 | `webgpu-wgsl.md` | ⬜ Pendiente | | |
 | 20 | `webgpu-how-it-works.md` | ⬜ Pendiente | | |
 | 21 | `webgpu-compatibility-mode.md` | ⬜ Pendiente | | |
