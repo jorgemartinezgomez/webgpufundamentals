@@ -3,9 +3,9 @@
 ## Estadísticas
 
 - **Total de archivos**: 56 (excluyendo 6 stubs sin contenido)
-- **Traducidos**: 43
-- **Pendientes**: 13
-- **Progreso**: 77%
+- **Traducidos**: 46
+- **Pendientes**: 10
+- **Progreso**: 82%
 
 ## Estado por sección
 
@@ -78,9 +78,9 @@ El orden sigue `toc.hanson` (orden de lectura recomendado).
 
 | # | Archivo | Estado | Fecha | Notas |
 |---|---------|--------|-------|-------|
-| 44 | `webgpu-compute-shaders.md` | ⬜ Pendiente | | |
-| 45 | `webgpu-compute-shaders-histogram.md` | ⬜ Pendiente | | |
-| 46 | `webgpu-compute-shaders-histogram-part-2.md` | ⬜ Pendiente | | |
+| 44 | `webgpu-compute-shaders.md` | ✅ Completado | 2026-04-25 | Traducción completa |
+| 45 | `webgpu-compute-shaders-histogram.md` | ✅ Completado | 2026-04-25 | Parte 1 |
+| 46 | `webgpu-compute-shaders-histogram-part-2.md` | ✅ Completado | 2026-04-25 | Parte 2 |
 
 ### Misc (Miscelánea)
 
