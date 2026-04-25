@@ -1112,7 +1112,7 @@ Para leer un formato, como "rg16float", las primeras letras son los canales sopo
 
 * **multisample**
 
-  Puede ser [multimuestreado (multisampled)](webgpu-multisampling.html).
+  Soporta [multisampling](webgpu-multisampling.html).
 
 * **storage**
 

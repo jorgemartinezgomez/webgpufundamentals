@@ -31,6 +31,7 @@
 | offset | Universal en programación |
 | callback | Universal en programación |
 | encoder | API WebGPU |
+| multisampling | Universal en gráficos |
 
 ## Términos que SÍ se traducen
 

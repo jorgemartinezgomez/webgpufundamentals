@@ -25,7 +25,7 @@ El orden sigue `toc.hanson` (orden de lectura recomendado).
 | 8 | `webgpu-textures-external-video.md` | ✅ Completado | 2026-04-25 | Traducción completa |
 | 9 | `webgpu-cube-maps.md` | ✅ Completado | 2026-04-25 | Traducción completa |
 | 10 | `webgpu-storage-textures.md` | ✅ Completado | 2026-04-25 | Traducción completa |
-| 11 | `webgpu-multisampling.md` | ⬜ Pendiente | | |
+| 11 | `webgpu-multisampling.md` | ✅ Completado | 2026-04-25 | Traducción completa |
 | 12 | `webgpu-constants.md` | ⬜ Pendiente | | |
 | 13 | `webgpu-memory-layout.md` | ⬜ Pendiente | | |
 | 14 | `webgpu-transparency.md` | ⬜ Pendiente | | |
