@@ -109,3 +109,5 @@
 | texel | téxel | Con tilde |
 | bilinear filtering | filtrado bilineal (bilinear filtering) | Aclarar la 1ª vez |
 | address mode | modo de direccionamiento (address mode) | |
+| cubemap | mapa de cubo (cubemap) | Aclarar la 1ª vez |
+| environment map | mapa de entorno (environment map) | Aclarar la 1ª vez |
