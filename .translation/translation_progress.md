@@ -3,9 +3,9 @@
 ## Estadísticas
 
 - **Total de archivos**: 56 (excluyendo 6 stubs sin contenido)
-- **Traducidos**: 15
-- **Pendientes**: 41
-- **Progreso**: 27%
+- **Traducidos**: 17
+- **Pendientes**: 39
+- **Progreso**: 30%
 
 ## Estado por sección
 
@@ -31,7 +31,7 @@ El orden sigue `toc.hanson` (orden de lectura recomendado).
 | 14 | `webgpu-transparency.md` | ✅ Completado | 2026-04-25 | Traducción completa |
 | 15 | `webgpu-bind-group-layouts.md` | ✅ Completado | 2026-04-25 | Traducción completa |
 | 16 | `webgpu-copying-data.md` | ✅ Completado | 2026-04-25 | Traducción completa |
-| 17 | `webgpu-limits-and-features.md` | ⬜ Pendiente | | |
+| 17 | `webgpu-limits-and-features.md` | ✅ Completado | 2026-04-25 | Traducción completa |
 | 18 | `webgpu-timing.md` | ⬜ Pendiente | | |
 | 19 | `webgpu-wgsl.md` | ⬜ Pendiente | | |
 | 20 | `webgpu-how-it-works.md` | ⬜ Pendiente | | |
