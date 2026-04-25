@@ -3,9 +3,9 @@
 ## Estadísticas
 
 - **Total de archivos**: 56 (excluyendo 6 stubs sin contenido)
-- **Traducidos**: 46
-- **Pendientes**: 10
-- **Progreso**: 82%
+- **Traducidos**: 50
+- **Pendientes**: 6
+- **Progreso**: 89%
 
 ## Estado por sección
 
@@ -86,10 +86,10 @@ El orden sigue `toc.hanson` (orden de lectura recomendado).
 
 | # | Archivo | Estado | Fecha | Notas |
 |---|---------|--------|-------|-------|
-| 47 | `webgpu-resizing-the-canvas.md` | ⬜ Pendiente | | |
-| 48 | `webgpu-multiple-canvases.md` | ⬜ Pendiente | | |
-| 49 | `webgpu-points.md` | ⬜ Pendiente | | |
-| 50 | `webgpu-from-webgl.md` | ⬜ Pendiente | | |
+| 47 | `webgpu-resizing-the-canvas.md` | ✅ Completado | 2026-04-25 | Traducción completa |
+| 48 | `webgpu-multiple-canvases.md` | ✅ Completado | 2026-04-25 | Traducción completa |
+| 49 | `webgpu-points.md` | ✅ Completado | 2026-04-25 | Traducción completa |
+| 50 | `webgpu-from-webgl.md` | ✅ Completado | 2026-04-25 | Traducción completa |
 | 51 | `webgpu-optimization.md` | ⬜ Pendiente | | |
 | 52 | `webgpu-debugging.md` | ⬜ Pendiente | | |
 | 53 | `webgpu-resources.md` | ⬜ Pendiente | | |
