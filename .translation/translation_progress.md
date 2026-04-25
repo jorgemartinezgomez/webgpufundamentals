@@ -42,10 +42,10 @@ El orden sigue `toc.hanson` (orden de lectura recomendado).
 | # | Archivo | Estado | Fecha | Notas |
 |---|---------|--------|-------|-------|
 | 22 | `webgpu-translation.md` | ✅ Completado | 2026-04-25 | Traducción completa |
-| 23 | `webgpu-rotation.md` | ⬜ Pendiente | | |
-| 24 | `webgpu-scale.md` | ⬜ Pendiente | | |
-| 25 | `webgpu-matrix-math.md` | ⬜ Pendiente | | |
-| 26 | `webgpu-orthographic-projection.md` | ⬜ Pendiente | | |
+| 23 | `webgpu-rotation.md` | ✅ Completado | 2026-04-25 | Traducción completa |
+| 24 | `webgpu-scale.md` | ✅ Completado | 2026-04-25 | Traducción completa |
+| 25 | `webgpu-matrix-math.md` | ✅ Completado | 2026-04-25 | Traducción completa |
+| 26 | `webgpu-orthographic-projection.md` | ✅ Completado | 2026-04-25 | Traducción completa |
 | 27 | `webgpu-perspective-projection.md` | ⬜ Pendiente | | |
 | 28 | `webgpu-cameras.md` | ⬜ Pendiente | | |
 | 29 | `webgpu-matrix-stacks.md` | ⬜ Pendiente | | |
