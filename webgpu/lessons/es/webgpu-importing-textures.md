@@ -1,4 +1,4 @@
-Title: WebGPU Carga de imágenes en texturas
+Title: Carga de imágenes en texturas en WebGPU
 Description: Cómo cargar una Imagen/Canvas/Video en una textura
 TOC: Carga de imágenes
 

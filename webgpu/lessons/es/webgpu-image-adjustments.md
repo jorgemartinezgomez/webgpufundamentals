@@ -1,4 +1,4 @@
-Title: WebGPU Post Processing - Ajustes de imagen
+Title: Post Processing en WebGPU - Ajustes de imagen
 Description: Ajustes de imagen
 TOC: Ajustes de imagen
 

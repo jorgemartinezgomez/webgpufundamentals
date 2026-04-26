@@ -1,4 +1,4 @@
-Title: WebGPU Vertex Buffers
+Title: Vertex Buffers en WebGPU
 Description: Pasando datos de vértices a los shaders
 TOC: Vertex Buffers
 

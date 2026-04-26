@@ -1,4 +1,4 @@
-Title: Variables entre etapas de WebGPU (Inter-stage Variables)
+Title: Variables entre etapas en WebGPU (Inter-stage Variables)
 Description: Pasar datos de un vertex shader a un fragment shader
 TOC: Variables entre etapas
 

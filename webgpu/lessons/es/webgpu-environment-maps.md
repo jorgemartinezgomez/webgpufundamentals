@@ -1,4 +1,4 @@
-Title: WebGPU Environment Maps (reflexiones)
+Title: Environment Maps en WebGPU
 Description: Cómo implementar environment maps.
 TOC: Environment Maps
 

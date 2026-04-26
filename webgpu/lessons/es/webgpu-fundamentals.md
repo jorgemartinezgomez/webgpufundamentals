@@ -36,9 +36,9 @@ Por otro lado, tal vez tengas un caso de uso personalizado, quieras modificar un
 
 # Empezando
 
-Es difícil decidir por dónde empezar. A cierto nivel, WebGPU es un sistema muy simple. Todo lo que hace es ejecutar 3 tipos de funciones en la GPU: vertex shaders (shaders de vértices), fragment shaders (shaders de fragmentos) y compute shaders (shaders de cómputo).
+Es difícil decidir por dónde empezar. A cierto nivel, WebGPU es un sistema muy simple. Todo lo que hace es ejecutar 3 tipos de funciones en la GPU: vertex shaders (sombreadores de vértices), fragment shaders (sombreadores de fragmentos) y compute shaders (shaders de cómputo).
 
-Un vertex shader (shader de vértices) calcula vértices. El shader devuelve posiciones de vértices. Por cada grupo de 3 vértices que la función del vertex shader devuelve, se dibuja un triángulo entre esas 3 posiciones.[^primitives]
+Un vertex shader calcula vértices. El shader devuelve posiciones de vértices. Por cada grupo de 3 vértices que la función del vertex shader devuelve, se dibuja un triángulo entre esas 3 posiciones.[^primitives]
 
 [^primitives]: En realidad hay 5 modos:
 
@@ -48,11 +48,11 @@ Un vertex shader (shader de vértices) calcula vértices. El shader devuelve pos
     * `'triangle-list'`: por cada 3 posiciones, dibuja un triángulo (**por defecto**)
     * `'triangle-strip'`: por cada nueva posición, dibuja un triángulo a partir de ella y las últimas 2 posiciones
 
-Un fragment shader (shader de fragmentos) calcula colores.[^fragment-output] Cuando se dibuja un triángulo, para cada píxel que se va a dibujar, la GPU llama a tu fragment shader. El fragment shader devuelve entonces un color.
+Un fragment shader calcula colores.[^fragment-output] Cuando se dibuja un triángulo, para cada píxel que se va a dibujar, la GPU llama a tu fragment shader. El fragment shader devuelve entonces un color.
 
 [^fragment-output]: Los fragment shaders escriben datos indirectamente en texturas. Esos datos no tienen por qué ser colores. Por ejemplo, es común generar la dirección de la superficie que representa ese píxel.
 
-Un compute shader (shader de cómputo) es más genérico. Es efectivamente solo una función que llamas y dices "ejecuta esta función N veces". La GPU pasa el número de iteración cada vez que llama a tu función, de modo que puedes usar ese número para hacer algo único en cada iteración.
+Un compute shader es más genérico. Es efectivamente solo una función que llamas y dices "ejecuta esta función N veces". La GPU pasa el número de iteración cada vez que llama a tu función, de modo que puedes usar ese número para hacer algo único en cada iteración.
 
 Si entrecierras los ojos, puedes pensar en estas funciones como algo similar a las funciones que pasas a [`array.forEach`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach) o [`array.map`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map). Las funciones que ejecutas en la GPU son solo funciones, al igual que las funciones de JavaScript. La parte que difiere es que se ejecutan en la GPU, por lo que para ejecutarlas necesitas copiar todos los datos a los que quieres que accedan a la GPU en forma de buffers y texturas, y solo pueden escribir en esos buffers y texturas. Necesitas especificar en las funciones qué bindings o locations buscará la función para encontrar los datos. Y, de vuelta en JavaScript, necesitas vincular los buffers y texturas que contienen tus datos a esos bindings o locations. Una vez que hayas hecho eso, le indicas a la GPU que ejecute la función.
 
@@ -143,11 +143,11 @@ Para dibujar triángulos con WebGPU tenemos que proporcionar 2 "shaders". De nue
 
 1. Vertex Shaders
 
-   Los vertex shaders (shaders de vértices) son funciones que calculan las posiciones de los vértices para dibujar triángulos/líneas/puntos.
+   Los vertex shaders son funciones que calculan las posiciones de los vértices para dibujar triángulos/líneas/puntos.
 
 2. Fragment Shaders
 
-   Los fragment shaders (shaders de fragmentos) son funciones que calculan el color (u otros datos) para cada píxel que se va a dibujar/rasterizar al dibujar triángulos/líneas/puntos.
+   Los fragment shaders son funciones que calculan el color (u otros datos) para cada píxel que se va a dibujar/rasterizar al dibujar triángulos/líneas/puntos.
 
 Empecemos con un programa de WebGPU muy pequeño para dibujar un triángulo.
 
@@ -734,7 +734,7 @@ En los siguientes artículos, cubriremos varias formas de pasar datos a los shad
 
 Luego cubriremos [los conceptos básicos de WGSL](webgpu-wgsl.html).
 
-Este orden va de lo más simple a lo más complejo. Las variables entre etapas no requieren ninguna configuración externa para ser explicadas. Podemos ver cómo usarlas simplemente con cambios en el WGSL que usamos arriba. Los uniforms son efectivamente variables globales y, como tales, se usan en los 3 tipos de shaders (vertex, fragment y compute). Pasar de buffers de uniformes a buffers de almacenamiento es trivial, como se muestra al principio del artículo sobre storage buffers. Los vertex buffers solo se usan en los vertex shaders. Son más complejos porque requieren describir el diseño de los datos a WebGPU. Las texturas son las más complejas, ya que tienen muchísimos tipos y opciones.
+Este orden va de lo más simple a lo más complejo. Las variables entre etapas no requieren ninguna configuración externa para ser explicadas. Podemos ver cómo usarlas simplemente con cambios en el WGSL que usamos arriba. Los uniforms son efectivamente variables globales y, como tales, se usan en los 3 tipos de shaders (vertex, fragment y compute). Pasar de buffers de uniforms a buffers de almacenamiento es trivial, como se muestra al principio del artículo sobre storage buffers. Los vertex buffers solo se usan en los vertex shaders. Son más complejos porque requieren describir el diseño de los datos a WebGPU. Las texturas son las más complejas, ya que tienen muchísimos tipos y opciones.
 
 Me preocupa un poco que estos artículos resulten aburridos al principio. Siéntete libre de saltar de uno a otro si lo prefieres. Solo recuerda que si no entiendes algo, probablemente necesites leer o revisar estos conceptos básicos. Una vez que dominemos los fundamentos, empezaremos a repasar técnicas reales.
 

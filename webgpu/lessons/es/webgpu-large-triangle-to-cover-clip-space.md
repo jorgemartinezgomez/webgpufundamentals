@@ -1,4 +1,4 @@
-Title: WebGPU Gran Triángulo para Cubrir el Espacio de Recorte
+Title: Gran Triángulo para Cubrir el Espacio de Recorte en WebGPU
 Description: Gran Triángulo para Cubrir el Espacio de Recorte
 TOC: Gran Triángulo de Espacio de Recorte
 

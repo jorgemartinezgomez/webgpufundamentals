@@ -1,4 +1,4 @@
-Title: WebGPU Cubemaps
+Title: Cubemaps en WebGPU
 Description: Cómo usar cubemaps en WebGPU
 TOC: Cubemaps
 

@@ -1,4 +1,4 @@
-Title: WebGPU Uniforms
+Title: Uniforms en WebGPU
 Description: Pasando datos constantes a un shader
 TOC: Uniforms
 

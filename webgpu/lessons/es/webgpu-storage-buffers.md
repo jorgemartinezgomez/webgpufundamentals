@@ -1,4 +1,4 @@
-Title: WebGPU Storage Buffers
+Title: Storage Buffers en WebGPU
 Description: Pasando grandes cantidades de datos a los shaders
 TOC: Storage Buffers
 

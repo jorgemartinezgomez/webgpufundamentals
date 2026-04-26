@@ -1,4 +1,4 @@
-Title: WebGPU WGSL
+Title: WGSL de WebGPU
 Description: Una introducción al lenguaje de sombreado de WebGPU (WebGPU Shading Language)
 TOC: WGSL
 

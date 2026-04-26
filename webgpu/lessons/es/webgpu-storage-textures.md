@@ -1,4 +1,4 @@
-Title: Texturas de almacenamiento (Storage Textures) de WebGPU
+Title: Texturas de almacenamiento (Storage Textures) en WebGPU
 Description: Cómo usar texturas de almacenamiento (storage textures)
 TOC: Texturas de almacenamiento (Storage Textures)
 

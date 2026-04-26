@@ -1,4 +1,4 @@
-Title: WebGPU SkyBox
+Title: Skybox en WebGPU
 Description: ¡Muestra el cielo con un skybox!
 TOC: Skyboxes
 

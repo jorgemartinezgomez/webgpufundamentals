@@ -1,4 +1,4 @@
-Title: WebGPU Bind Group Layouts
+Title: Bind Group Layouts en WebGPU
 Description: Layouts de grupos de bindings explícitos
 TOC: Bind Group Layouts
 

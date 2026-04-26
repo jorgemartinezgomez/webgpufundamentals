@@ -1,4 +1,4 @@
-Title: WebGPU Múltiples Canvas
+Title: Múltiples Canvas en WebGPU
 Description: Múltiples Canvas
 TOC: Múltiples Canvas
 

@@ -1,4 +1,4 @@
-Title: WebGPU Puntos
+Title: Puntos en WebGPU
 Description: Dibujando puntos en WebGPU
 TOC: Puntos
 

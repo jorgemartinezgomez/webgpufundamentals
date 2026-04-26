@@ -1,4 +1,4 @@
-Title: WebGPU Uso eficiente de video
+Title: Uso eficiente de video en WebGPU
 Description: Cómo usar video en WebGPU
 TOC: Uso de video
 

@@ -1,4 +1,4 @@
-Title: WebGPU: Controles de cámara
+Title: Controles de cámara en WebGPU
 Description: Controlando la cámara
 TOC: Controles de cámara
 

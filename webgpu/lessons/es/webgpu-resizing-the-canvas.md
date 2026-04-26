@@ -1,4 +1,4 @@
-Title: WebGPU Redimensionando el canvas.
+Title: Redimensionando el canvas en WebGPU
 Description: Cómo redimensionar un canvas de WebGPU y los problemas involucrados
 TOC: Redimensionando el canvas
 
