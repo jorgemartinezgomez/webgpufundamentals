@@ -88,10 +88,18 @@ Este se incluye si y solo si existe. Preferiría fuertemente no tener que usarlo
 
 /* ¡Solo comenta los cambios que sean absolutamente necesarios! */
 :root {
-  /* --article-font-family: ...; */
-  /* --headline-font-family: ...; */
+  --article-font-family: "la mejor fuente para el texto de los artículos en español";
+  --headline-font-family: "la mejor fuente para los titulares en español";
+  /* un bloque de código */
+  /* --code-block-font-family: "Lucida Console", Monaco, monospace; */
+  /* una palabra en una oración */
+  /* --code-font-family: monospace; */
 }
 ```
+
+Observa que hay 2 configuraciones que no se han cambiado. Me parece poco probable que el código necesite una fuente diferente por idioma.
+
+PD: Ya que estamos aquí, me encantan las fuentes de código con ligaduras, pero parecen una mala idea para un sitio de tutoriales porque las ligaduras ocultan los caracteres reales necesarios, así que, por favor, no pidas ni uses una fuente de código con ligaduras aquí.
 
 #### Notas de traducción
 
@@ -115,7 +123,7 @@ o
 
 Aunque puedes añadir parámetros de consulta (ver abajo), no añadas "../" para intentar que el enlace sea relativo al archivo .md. Los enlaces deben permanecer como si el artículo existiera en la misma ubicación que el original en inglés.
 
-### Filosofía y Reglas de Traducción
+### Filosofía y Reglas de Traducción al español
 
 Para mantener la consistencia en la versión en español, seguimos estas directrices:
 
